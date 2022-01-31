@@ -1,0 +1,128 @@
+.nav{
+  position:fixed;
+  width:100%;
+  height: 8vh;
+  opacity:0.75;
+  background: orangered;
+  top:0px;
+  text-align:center;
+  padding-top:2vh;
+  display:flex;
+  justify-content:flex-end;
+}
+.nava{
+  text-decoration:none;
+  color:white;
+  margin-right:3em;
+   text-align:center;
+}
+.body{
+  width:100%;
+  display:grid;
+  grid-template-rows: 100vh 100vh 230vh 10vh;
+  margin-top:5.9vh;
+}
+.aboutme{
+  height:100vh;
+  width:100%;
+  grid-template-columns: 1fr 3fr;
+  display:grid;
+   background: rgb(150,0,0);
+}
+img{
+  margin-top:10vh;
+  height:60vh;
+  grid-column:1/2;
+  margin-top:3vh;
+  margin-left:2vw;
+  margin-right:2vw;
+  border: 5px solid white;
+}
+.aboutme-info{
+  
+  width:40vw;
+  grid-column:2/3;
+  text-align:center;
+  color:silver;
+  font-size:1.75vw;
+  letter-spacing: 0.1vw;
+   margin-left:10vw;
+  padding-top:10vh;
+}
+.p3{
+  margin-left:1vw;
+  width:40vw;
+  text-align:center;
+  color:gray;
+  letter-spacing: 0vw;
+  word-spacing: 0.1vw;
+}
+button{
+  padding:2vh;
+  color:white;
+  background:rgb(100,10,100,0.5);
+   border: 1px solid white;
+  border-radius: 5px;
+}
+.border{
+  grid-column:1/3;
+   border-bottom: 1px solid gray; 
+  padding-bottom: 3px;
+  border-bottom-width: 2px;
+}
+.info-link{
+  margin-top:5vh;
+}
+.border-info{
+  border: 5px silver;
+}
+
+#info{
+  color:silver;
+  font-size:1.75vw;
+  letter-spacing: 0.1vw;
+   padding-left:10vw;
+  padding-right:10vw;
+  background:#46678f;
+}
+.button-info{
+  display:flex;
+  justify-content: center;
+}
+.margin{
+  margin-top:12vh;
+}
+#ali{
+  text-align:center;
+  color:black;
+  font-size:2.75vw;
+  letter-spacing: 0.3vw;
+}
+.projects{
+  color:silver;
+   background: #8f6246;
+}
+.projects-align{
+  text-align:left;
+  margin:10px 10vw 0 10vw;
+}
+.mar{
+  margin-top: 12vh;
+}
+.contacts{
+  background: black;
+  display:flex;
+  justify-content: center;
+}
+ion-icon {
+  padding : 0 5vw 0 5vw;
+  margin-top:2vh;
+  font-size: 6vh;
+  color: white;
+}
+ion-icon:hover {
+  color: blue;
+}
+a{
+  text-decoration:none;
+}
